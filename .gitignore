@@ -1,0 +1,22 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Jenkins data
+jenkins_home/
+
+# Docker related
+*.log
+*.pid
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Kubernetes secrets (if any, just in case)
+*.secret.yaml
